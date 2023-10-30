@@ -1,0 +1,34 @@
+.search-icon{
+    width: 15px;
+    height: 16px;
+    border: 4px solid #666;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    border-radius: 50%;
+    transform: rotate(-45deg);
+    float: left;
+}
+.search-icon:before{
+    content: '';
+    position: absolute;
+    border: 2px solid #666;
+    height: 60%;
+    left: 0;
+    right: 0;
+    width: 0;
+    top: 100%;
+    margin: auto;
+}
+.transformX .search-icon{
+    opacity: 0;
+}
+.transformX .bar1{
+    opacity: 1;
+    transform: translate(-10px, 9px) rotate(-45deg);
+}
+.transformX .bar3{
+    opacity: 1;
+    transform: translate(-10px, -9px) rotate(45deg);
+}

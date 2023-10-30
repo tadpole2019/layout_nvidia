@@ -1,0 +1,28 @@
+.in-page-nav{
+    color: white;
+    background-color: black;
+    height: 100px;
+    width: 100%;
+}
+.in-page-nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+}
+.in-page-nav ul > li{
+    display: inline-block;
+    width: 10%;
+}
+.in-page-nav a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 2em 0;
+    text-indent: 0;
+    text-align: center;
+}
+.nav-bottom a:hover{
+    border-bottom: 10px solid rgb(46, 172, 92);
+}
