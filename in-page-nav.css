@@ -3,12 +3,13 @@
     background-color: black;
     height: 100px;
     width: 100%;
+    min-width: 960px;
 }
 .in-page-nav ul{
     display: flex;
     justify-content: space-around;
     list-style-type: none;
-    overflow: hidden;
+
     padding: 0;
 }
 .in-page-nav ul > li{

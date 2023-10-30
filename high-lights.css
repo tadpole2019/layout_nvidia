@@ -1,0 +1,33 @@
+#high-lights{
+    background-color: #ccc;
+    width: 100%;
+    min-width: 960px;
+    height: fit-content;
+}
+.high-lights-container{
+    text-indent: 0;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+}
+.high-lights-cards{
+    width: 400px;
+    height: 200px;
+    padding: 10%;
+}
+.high-lights-title {
+    text-align: center;
+    padding: 5% 0;
+    text-indent: 0;
+}
+.high-lights-subtitle{
+    padding: 5% 0;
+    text-align: center;
+}
+.high-lights-discription{
+    text-align: center;
+}
+.perfValue{
+    font-size: 45px;
+}
+
