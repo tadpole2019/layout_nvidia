@@ -1,0 +1,21 @@
+.workload{
+    width: 100%;
+    height: 500px;
+    min-width: 960px;
+    background-color: #999;
+}
+.workload-title{
+    text-align: center;
+    padding-top: 10% ;
+    padding-bottom: 5%;
+}
+.workload-description{
+    text-align: center;
+    padding-bottom: 5%;
+}
+.workload-container{
+
+}
+.picture-card{
+    
+}

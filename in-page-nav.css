@@ -9,7 +9,6 @@
     display: flex;
     justify-content: space-around;
     list-style-type: none;
-
     padding: 0;
 }
 .in-page-nav ul > li{
@@ -18,7 +17,7 @@
 }
 .in-page-nav a{
     text-decoration: none;
-    display: block;
+    display: block; /* 延伸觸控區 */
     color: white;
     padding: 2em 0;
     text-indent: 0;

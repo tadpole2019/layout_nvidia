@@ -3,12 +3,14 @@
     width: 100%;
     min-width: 960px;
     height: fit-content;
+    padding: 10% 0;
 }
 .high-lights-container{
     text-indent: 0;
     width: 100%;
     height: fit-content;
     display: flex;
+    margin: auto;
 }
 .high-lights-cards{
     width: 400px;

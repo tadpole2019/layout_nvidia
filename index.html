@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="in-page-nav.css">
     <link rel="stylesheet" href="global-footer.css">
     <link rel="stylesheet" href="high-lights.css">
+    <link rel="stylesheet" href="feature.css">
+    <link rel="stylesheet" href="introduction.css">
+    <link rel="stylesheet" href="workload.css">
     <style>
         *{
             margin: 0;
@@ -92,58 +95,7 @@
         .clear {
             clear: both;
         }
-        #introduction{
-            background-color: white;
-            height: 600px;
-            width: 100%;
-            min-width: 960px;
-        }
-        .introduction-container{
-            display: block;
-            text-align: center;
-            text-indent: 0;
-            margin: auto;
-            padding: 5% 0;
-        }
-        .introduction-box{
-            margin: auto;
-            width: 80%;
-            height: 300px;
-            background-color: white;
-            border: 1px #aaa solid;
-            border-radius: 5px;
-            box-shadow: 0 0 5px #999;
-        }
-        .introduction-box:hover{
-            box-shadow: 0 0 20px #999;
-        }
-        .introduction-title{
-            text-indent: 0;
-            width: 80%;
-            padding: 5% 0;
-            margin: auto;
-        }
-        .introduction-article{
-            text-indent: 0;
-            width: 80%;
-            margin: auto;
-            padding: 5% 0;
-        }
-        .introduction-link{
-            text-indent: 0;
-            width: 80%;
-            margin: auto;
-
-        }
-        .action-link-icon{
-            color: #666;
-        }
-
-        .introduction-link a{
-            text-decoration: none;
-            color: black;
-
-        }
+       
         
     </style>
     <script>
@@ -380,7 +332,7 @@
                     </div>
                 </div>
             </div>
-            <div >
+            <div class="high-lights-discription">
                 <p>
                     1 &nbsp; 最高速率以GPU加速時脈為準。
                 </p>
@@ -389,7 +341,92 @@
 
         <div class="clear"></div>
 
-        <div></div>
+        <div id="feature" class="text">
+            <div class="high-lights-title">
+                <h3>功能</h3>
+                <br>
+                <h2>
+                    採用NVIDIA Ada Lovelace架構
+                </h2>
+            </div>
+            <div class="feature-container">
+                <div class="feature-card">
+                    <div class="feature-image">
+                        <img src="image/m48-gpu-chip.svg" alt="m48-gpu-chip" title="採用NVIDIA Lovelace架構的CUDA核心" width="100px">
+                    </div>
+                    <div class="high-lights-subtitle">
+                        <h3>採用 NVIDIA Ada Lovelace 架構的 CUDA 核心</h3>
+                    </div>
+                    <div class="feature-description">
+                        <p>針對單精度浮點 (FP32) 運算的兩倍速處理，可為桌上型電腦大幅提升繪圖運算和模擬工作流程的效能，便於進行複雜的 3D 電腦輔助設計 (CAD) 和電腦輔助工程 (CAE) 等工作。</p>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-image">
+                        <img src="image/m48-render.svg" alt="m48-render" title="第三代RT核心" width="100px">
+                    </div>
+                    <div class="high-lights-subtitle">
+                        <h3>第三代RT核心</h3>
+                    </div>
+                    <div class="feature-description">
+                        <p>第三代 RT 核心的輸送量最高可達前一代的 2 倍，可大幅加速為影片內容提供擬真渲染效果、建築設計評估，以及製作產品設計虛擬原型等工作負載。這項技術還能加快光線追蹤的動態模糊渲染速度，並達到更高的視覺精準度。</p>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-image">
+                        <img src="image/m48-digital-deep-learning-institute-talks-training.svg" alt="m48-gpu-chip" title="第四代Tensor核心" width="100px">
+                    </div>
+                    <div class="high-lights-subtitle">
+                        <h3>第四代Tensor核心</h3>
+                    </div>
+                    <div class="feature-description">
+                        <p>第四代 Tensor 核心提供更快速的人工智慧運算效能，比前一代高出 3 倍以上。這些 Tensor 核心支援 FP8 精度資料類型的加速，並提供獨立的浮點和整數資料路徑，可加速混合浮點和整數計算的執行速度。</p>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-image">
+                        <img src="image/m48-ram-memory.svg" alt="m48-ram-memory" title="24GB的GPU記憶體" width="100px">
+                    </div>
+                    <div class="high-lights-subtitle">
+                        <h3>24GB的GPU記憶體</h3>
+                    </div>
+                    <div class="feature-description">
+                        <p>有了 24GB 的 GDDR6 記憶體，RTX 4500 為資料科學家、工程師和創意專業人士提供大型記憶體，以處理龐大資料集和渲染、資料科學及模擬作業等工作負載。</p>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-image">
+                        <img src="image/m48-gpu-encoding.svg" alt="m48-gpu-encoding" title="AV1編碼器" width="100px">
+                    </div>
+                    <div class="high-lights-subtitle">
+                        <h3>AV1編碼器</h3>
+                    </div>
+                    <div class="feature-description">
+                        <p>採用 AV1 編碼的第八代專用硬體編碼器 (NVENC) 為串流主、直播主和視訊會議開創了全新機會。此技術的效率比 H.264 高出 40%，讓使用者能以 1080p 串流將解析度提升至 1440p，並同時維持相同的位元速率和畫質。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="feature-link">
+                    <a href=""><span>深入暸解NVIDIA Ada Lovelace GPU架構</span></a>
+            </div>
+        </div>
+
+        <div class="clear"></div>
+
+        <div class="workload text">
+            <div class="workload-title">
+                <h3>工作負載</h3>
+            </div>
+            <div class="workload-description">
+                <h2>為工作釋放NVIDIA RTX 的強大功能</h2>
+            </div>
+            <div class="workload-container">
+                <picture class="picture-card">
+                    <h4>生成式人工智慧</h4>
+                    <img src="image/" alt="">
+                </picture>      
+            </div>
+        </div>
 
         <div class="clear"></div>
         <footer class="global-footer text">
