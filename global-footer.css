@@ -6,7 +6,7 @@
 }
 .global-footer_links {
     list-style-type: none;
-    
+    color: #666;
 }
 .global-footer_links>a{
     text-decoration: none;

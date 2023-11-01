@@ -1,8 +1,9 @@
 .workload{
     width: 100%;
-    height: 500px;
+    height: fit-content;
     min-width: 960px;
-    background-color: #999;
+    background-color: #ccc;
+
 }
 .workload-title{
     text-align: center;
@@ -14,8 +15,50 @@
     padding-bottom: 5%;
 }
 .workload-container{
-
-}
-.picture-card{
+    width: 100%;
+    min-width: 960px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     
 }
+.workload-card{
+    width: 350px;
+    height: 450px;
+    overflow: hidden;
+    position: relative;
+    border: black 5px solid;
+    margin: 50px 0;
+}
+
+.workload-card img:hover{
+    transform: scale(1.2,1.2);
+}
+.workload-card img{
+    text-indent: 0;
+    margin: 0;
+    position: absolute;
+    left:-380px;
+    top:-50px;
+    transform: scale(1,1);
+    transition: all 1s ease-out;
+}
+.workload-card-text{
+    margin: 0;
+    text-indent: 0;
+    color: white;
+    position: relative;
+    z-index: 10;
+    padding: 5% 5%;
+}
+
+.workload-card-bodytext{
+    margin: 0;
+    text-indent: 0;
+    color: white;
+    position: relative;
+    z-index: 10;
+    padding: 5% 5%;
+}
+
